@@ -1,6 +1,20 @@
-h1 {
+@font-face{
+	font-family: Troika;
+	src: url("../fonts/Troika/troika.otf");
 
-	font-size: 100px;
+}
+
+body{
+
+	background-image: url("../images/boxingbackground1.jpg");
+}
+
+
+h1 {
+	font-family:Troika;
+	font-size: 75px;
+	color:#990000;
+	
 }
 #choosenOne {
 	width:100px;
@@ -51,4 +65,22 @@ h1 {
 	width:100px;
 	height:100px;
 }
+.panel-body {
+	background-color:#990000;
+	font-family:Troika;
+	color:white;
+
+}
+.panel{
+	border-color:#003399;;
+}
+#button {
+	font-family:Troika;
+}
+
+#fighterStatus {
+	font-family:Troika;
+	color:white;
+}
+
 
