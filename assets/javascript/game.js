@@ -1,7 +1,7 @@
 //Global VARIABLES
 //======================================================
 
-window.onload = function(){
+
 
 
 var tyson = {
@@ -137,6 +137,7 @@ frazier = {
 
 
 
+window.onload =function(){
 
 	
 $(document).ready(function(){	
@@ -148,7 +149,7 @@ $(document).ready(function(){
 		
 		
 		
-		}else if (moves > 0 && player2.length == 0 ){
+		}else if (moves > 0 && player2.length == 0  && player1 != tyson){
 		 $('#fighter2').append(this);
 		 player2 = tyson 
 		 
@@ -164,7 +165,7 @@ $(document).ready(function(){
 			$('#choosenOne').append(this);
 			
 			player1 = ali
-		}else if(moves > 0 && player2.length == 0 ){
+		}else if(moves > 0 && player2.length == 0 && player1 != ali ){
 			$('#fighter2').append(this);
 			player2 = ali
 		}else{
@@ -179,7 +180,7 @@ $(document).ready(function(){
 			$('#choosenOne').append(this);
 			
 			player1 = george
-		}else if(moves > 0 && player2.length == 0){
+		}else if(moves > 0 && player2.length == 0 && player1 != george){
 			$('#fighter2').append(this);
 			player2 = george
 		}else{
@@ -193,7 +194,7 @@ $(document).ready(function(){
 			$('#choosenOne').append(this);
 			player1 = frazier
 			
-		}else if( moves > 0 && player2.length == 0){
+		}else if( moves > 0 && player2.length == 0 && player1 != frazier){
 			$('#fighter2').append(this);
 			player2	= frazier
 		}else{
@@ -217,25 +218,5 @@ $(document).ready(function(){
 
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// MAIN PROCESS
-//=======================================================
-
-
-
 }
+

@@ -17,8 +17,8 @@ h1 {
 	
 }
 #choosenOne {
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 
 
@@ -28,42 +28,33 @@ h1 {
 	margin-left:20px;
 }
 #tyson img {
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 #ali  img{
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 #george  img{
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 #frazier img{
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 .fighter img {
-	width:100px;
-	height:100px;
-}
-#tysonSize {
-	
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 
-#aliSize{
-	
-	width:100px;
-	height:100px;
 
-}
+
 
 #fighter2{
 
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 }
 .panel-body {
 	background-color:#990000;
@@ -72,10 +63,14 @@ h1 {
 
 }
 .panel{
-	border-color:#003399;;
+	border-color:#003399;
+	font-size: 20px;
 }
 #button {
 	font-family:Troika;
+	width: 100px;
+	font-size:30px;
+	margin-top: 10px;
 }
 
 #fighterStatus {
