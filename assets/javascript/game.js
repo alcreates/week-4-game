@@ -25,6 +25,8 @@ function newGame() {
  $('#fighter2').empty()
  $('#fightStatus').empty()
  $('#opponentStatus').empty()
+ $('#yourFighter').empty()
+ $('#yourOpponent').empty()
   tyson = {
 
   	name: "Tyson",
@@ -162,6 +164,7 @@ $('#tyson').click(function(){
 		player2 = []
 		$('#fighter2').empty()
 		$('#opponentStatus').empty()
+		$('#yourOpponent').empty()
 		wins += 1
 	}else if(player2.healthPoints <=0 && wins == 2){
 		alert("You are the Champion!")
@@ -196,7 +199,7 @@ function fightStatus(){
 
 function fight(){
 	player1Attack = Math.floor(Math.random() * player1.attackPower )
-	player1.attackPower += 6
+	
 	console.log("player1 attack :" + player1Attack)
 	player2Attack = player2.counterAttackPower
 	console.log("player2 attack :" + player2Attack)
@@ -214,7 +217,7 @@ function fight(){
 	}
 	console.log("player1 health:" + player1.healthPoints)
 	console.log("player2 health:" + player2.healthPoints)
-
+	player1.attackPower += 6
 }
 
 
