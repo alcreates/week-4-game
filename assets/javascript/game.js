@@ -85,7 +85,7 @@ $('#tyson').click(function(){
 		if (moves == 0){
 			$('#choosenOne').html(this);
 			player1 = ali
-			$("#fightStatus").html("<p>" +"Mike Tyson" + "health : " + player1.healthPoints + "</p>");
+			$("#fightStatus").html("<p>" + "health : " + player1.healthPoints + "</p>");
 			$('#yourFighter').html("Muhammed Ali");
 			console.log("player1 :" + player1.name);
 		}else if(moves > 0 && player2.length == 0 && player1 != ali ){
@@ -133,7 +133,7 @@ $('#tyson').click(function(){
 			$('#fighter2').html(this);
 			player2	= frazier
 			$("#opponentStatus").html("<p>" + "health : " + player2.healthPoints + "</p>")
-			$('#yourOpponent').html("George Foreman");
+			$('#yourOpponent').html("Joe Frazier");
 			console.log("player2: " +  player2.name)
 		}else{
 			alert('illegal move')
